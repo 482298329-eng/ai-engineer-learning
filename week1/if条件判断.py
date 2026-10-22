@@ -58,7 +58,7 @@
 第二档:2880-4880度,电费单价0.5383元/度
 第三档:4880度以上,电费单价0.7883元/度
 """
-electricity=int(float("消费的电量:"))
+electricity=float(input("消费的电量:"))
 if 0<electricity<2880:
     print("电费为:",electricity*0.4883)
 elif 2880<electricity<4880:
